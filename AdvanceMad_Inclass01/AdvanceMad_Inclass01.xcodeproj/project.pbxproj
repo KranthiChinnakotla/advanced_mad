@@ -15,6 +15,7 @@
 		760C0B0C1D708C4A001294F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760C0B0A1D708C4A001294F6 /* LaunchScreen.storyboard */; };
 		760C0B171D708C4A001294F6 /* AdvanceMad_Inclass01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C0B161D708C4A001294F6 /* AdvanceMad_Inclass01Tests.swift */; };
 		760C0B221D708C4A001294F6 /* AdvanceMad_Inclass01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C0B211D708C4A001294F6 /* AdvanceMad_Inclass01UITests.swift */; };
+		768D5A341D77D6D200710849 /* AuthenticateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D5A331D77D6D200710849 /* AuthenticateViewController.swift */; };
 		76BB2D7A1D77137000A88D71 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB2D791D77137000A88D71 /* LoginViewController.swift */; };
 		76BB2D7C1D77212400A88D71 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB2D7B1D77212400A88D71 /* FinalViewController.swift */; };
 		BA3677EB73E9C79D8C7D1218 /* Pods_AdvanceMad_Inclass01Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156E57D719353A70C8D29DC1 /* Pods_AdvanceMad_Inclass01Tests.framework */; };
@@ -61,6 +62,7 @@
 		760C0B1D1D708C4A001294F6 /* AdvanceMad_Inclass01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvanceMad_Inclass01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		760C0B211D708C4A001294F6 /* AdvanceMad_Inclass01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceMad_Inclass01UITests.swift; sourceTree = "<group>"; };
 		760C0B231D708C4A001294F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768D5A331D77D6D200710849 /* AuthenticateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticateViewController.swift; sourceTree = "<group>"; };
 		76BB2D791D77137000A88D71 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		76BB2D7B1D77212400A88D71 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		A1CC61AA815D5C80848DEB40 /* Pods_AdvanceMad_Inclass01UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvanceMad_Inclass01UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +144,7 @@
 				760C0B0D1D708C4A001294F6 /* Info.plist */,
 				760C0B051D708C4A001294F6 /* AdvanceMad_Inclass01.xcdatamodeld */,
 				76BB2D791D77137000A88D71 /* LoginViewController.swift */,
+				768D5A331D77D6D200710849 /* AuthenticateViewController.swift */,
 			);
 			path = AdvanceMad_Inclass01;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				76BB2D7A1D77137000A88D71 /* LoginViewController.swift in Sources */,
 				760C0B011D708C4A001294F6 /* ViewController.swift in Sources */,
 				760C0AFF1D708C4A001294F6 /* AppDelegate.swift in Sources */,
+				768D5A341D77D6D200710849 /* AuthenticateViewController.swift in Sources */,
 				760C0B071D708C4A001294F6 /* AdvanceMad_Inclass01.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

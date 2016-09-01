@@ -69,7 +69,7 @@ class LoginViewController: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if(segue.identifier == "final"){
-            if let vc = segue.destinationViewController as?FinalViewController{
+            if let vc = segue.destinationViewController as?AuthenticateViewController{
                 vc.email = emailText.text
                 vc.name = nameJson
             }

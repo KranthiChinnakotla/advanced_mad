@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SwiftyJSON
 class FinalViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
@@ -28,6 +28,8 @@ class FinalViewController: UIViewController {
         if(name != nil){
             nameLabel.text = name
         }
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
